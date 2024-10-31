@@ -1,0 +1,271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Probelix Blowball\n"
+"POT-Creation-Date: 2024-03-25 06:41+0100\n"
+"PO-Revision-Date: 2024-03-25 06:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pbx-blowball.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: src/CF7/CF7Integration.php:127
+msgid "&#8212;Please choose a store&#8212;"
+msgstr "&#8212;Bitte eine Filiale auswählen&#8212;"
+
+#: src/CF7/CF7Integration.php:229
+msgid "Missing form configuration. Required: Email Field."
+msgstr ""
+"Einstellungen konnten nicht übernommen werden. Folgende Felder müssen "
+"ausgefüllt werden: E-Mail Feld."
+
+#: src/CF7/CF7Integration.php:286
+msgid "Please save the form first"
+msgstr "Bitte das Formular zunächst speichern"
+
+#: src/CF7/CF7Integration.php:293 src/Settings/Settings.php:287
+#: src/Settings/Settings.php:413
+msgid "Blowball Settings"
+msgstr "Blowball-Einstellungen"
+
+#: src/CF7/CF7Integration.php:295
+msgid "Sync active"
+msgstr "Übermittlung aktiv"
+
+#: src/CF7/CF7Integration.php:297
+msgid "Email Field"
+msgstr "E-Mail Feld"
+
+#: src/CF7/CF7Integration.php:298
+msgid "Field that contains email address"
+msgstr "Feld, das die E-Mail-Adresse enthält"
+
+#: src/CF7/CF7Integration.php:300
+msgid "FirstName Field"
+msgstr "Feld \"Vorname\""
+
+#: src/CF7/CF7Integration.php:301
+msgid "Field that contains the first name"
+msgstr "Feld, das den Vornamen enthält"
+
+#: src/CF7/CF7Integration.php:303
+msgid "LastName Field"
+msgstr "Nachname-Feld"
+
+#: src/CF7/CF7Integration.php:304
+msgid "Field that contains the last name"
+msgstr "Feld, das den Nachnamen enthält"
+
+#: src/CF7/CF7Integration.php:306
+msgid "Source"
+msgstr "Quelle"
+
+#: src/CF7/CF7Integration.php:307
+msgid "Value for the source-field in blowball"
+msgstr "Wert für das Quellfeld in Blowball"
+
+#: src/CF7/CF7Integration.php:309
+msgid "Store"
+msgstr "Markt"
+
+#: src/CF7/CF7Integration.php:310
+msgid "Field that contains the store"
+msgstr "Feld, das den Markt enthält"
+
+#: src/CF7/CF7Integration.php:312
+msgid "Condition Field"
+msgstr "Bedingungs-Feld"
+
+#: src/CF7/CF7Integration.php:313
+msgid "Field that must be set to transfer"
+msgstr ""
+"Wenn gesetzt, muss dieses Feld gefüllt sein, damit eine Übermittlung erfolgt"
+
+#: src/CF7/CF7Integration.php:315
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: src/CF7/CF7Integration.php:316
+msgid "Comma seperated list of tags for blowballs internal tag field"
+msgstr "Kommagetrennte Liste von Tags für das interne Tag-Feld von Blowball"
+
+#: src/PbxBlowball.php:178 src/PbxBlowball.php:185
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:110
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:119
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:165
+msgid ""
+"Falls zu Ihrer Email Adresse ein Account vorliegt wurde eine Email mit "
+"weiteren Anweisungen versendet."
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:122
+msgid "Ein Fehler ist aufgetreten"
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:190
+msgid ""
+"Ungültiger Benutzername, ungültige E-Mail-Adresse oder falsches Passwort."
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:193
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:197
+msgid ""
+"Es ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es später "
+"erneut."
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:248
+msgid "ERROR: User/pass bad"
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:281
+msgid "Kein Passwort übergeben oder Passwort zu kurz!"
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:284
+msgid ""
+"Es exitstiert bereits ein Konto mit dieser E-Mail-Adresse. Bitte melden Sie "
+"sich an."
+msgstr ""
+
+#: src/Plugins/PbxUserPlugin/PbxUserPlugin.php:289
+msgid "<strong>Error</strong>: Ein unbekannter Fehler ist aufgetreten!"
+msgstr ""
+
+#: src/Settings/Settings.php:210
+msgid "Access token created successfully"
+msgstr "Zugriffstoken erfolgreich erstellt"
+
+#: src/Settings/Settings.php:221
+msgid ""
+"Sorry, but something went wrong while saving your settings. Please, try "
+"again."
+msgstr ""
+"Sorry, beim Speichern der Einstellungen ist etwas schiefgegangen. Bitte "
+"erneut versuchen."
+
+#: src/Settings/Settings.php:235
+msgid "Your settings have been saved."
+msgstr "Ihre Einstellungen wurden gespeichert."
+
+#: src/Settings/Settings.php:283
+msgid "General"
+msgstr "Allgemein"
+
+#: src/Settings/Settings.php:297 src/Settings/Settings.php:301
+#: src/Settings/Settings.php:344
+msgid "Plugins"
+msgstr "Plugins"
+
+#: src/Settings/Settings.php:337
+msgid ""
+"Here you can activate different plugins to customize your blowball "
+"integration"
+msgstr ""
+"Hier können weitere Plugins für die Blowball Integration aktiviert werden"
+
+#: src/Settings/Settings.php:353
+msgid "Blowball Login"
+msgstr "Blowball Login"
+
+#: src/Settings/Settings.php:364
+msgid "Blowball Stores"
+msgstr "Blowball Stores"
+
+#: src/Settings/Settings.php:375
+msgid "Blowball WooCommerce"
+msgstr "Blowball WooCommerce"
+
+#: src/Settings/Settings.php:390
+msgid "Save"
+msgstr "Speichern"
+
+#: src/Settings/Settings.php:404
+msgid ""
+"Here you can generate and store the access token for communication with the "
+"REST API of Blowball"
+msgstr ""
+"Hier kann das Access-Token für die Kommunikation mit der REST-API von "
+"Blowball generiert und gespeichert werden"
+
+#: src/Settings/Settings.php:405
+#, php-format
+msgid "The RedirectUri is <strong>%s</strong>"
+msgstr "Die RedirectUri lautet <strong>%s</strong>"
+
+#: src/Settings/Settings.php:421
+msgid "Server URL"
+msgstr "Server-URL"
+
+#: src/Settings/Settings.php:432
+msgid "Client ID"
+msgstr "Client ID"
+
+#: src/Settings/Settings.php:443
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: src/Settings/Settings.php:464
+msgid "Access Token"
+msgstr "Access Token"
+
+#: src/Settings/Settings.php:474
+msgid "Handshake Token"
+msgstr "Handshake Token"
+
+#: src/Settings/Settings.php:489
+msgid "Get Access token"
+msgstr "Access Token generieren"
+
+#: src/Settings/Settings.php:496
+msgid "Handshake"
+msgstr "Handshake"
+
+#: src/Settings/Settings.php:595 src/Settings/Settings.php:598
+msgid "Failed to connect to server"
+msgstr "Verbindung zum Server konnte nicht hergestellt werden"
+
+#: src/Settings/SettingsHelper.php:382
+msgid "Select a page&hellip;"
+msgstr "Wählen Sie eine Seite&hellip;"
+
+#. Plugin Name of the plugin/theme
+msgid "Probelix Blowball"
+msgstr "Probelix Blowball"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.blowball.io/wordpress"
+msgstr "https://www.blowball.io/wordpress"
+
+#. Description of the plugin/theme
+msgid "Integrates Wordpress and Woocommerce with Probelix Blowball"
+msgstr "Integriert Wordpress und Woocommerce mit Probelix Blowball"
+
+#. Author of the plugin/theme
+msgid "Probelix GmbH"
+msgstr "Probelix GmbH"
+
+#. Author URI of the plugin/theme
+msgid "www.probelix.com"
+msgstr "www.probelix.com"
+
+#~ msgid "Active"
+#~ msgstr "Aktiv"

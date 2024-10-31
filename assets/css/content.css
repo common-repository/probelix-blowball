@@ -1,0 +1,26 @@
+.nutritions .attr-value {
+    float: right;
+}
+
+.nutritions ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.nutritions li {
+    padding: 10px 0;
+}
+
+.nutritions>ul>li {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.nutritions>ul>li>ul {
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.nutritions>ul>li:last-child {
+    border-bottom: 0px;
+}
